@@ -1,0 +1,227 @@
+{
+  "checkedAt": "2026-11-13T00:22:31.672Z",
+  "source": "Apple 中国大陆官网 · 门店自提",
+  "errors": [],
+  "stores": [
+    {
+      "id": "R471",
+      "city": "杭州",
+      "name": "西湖",
+      "address": "杭州市上城区平海路 100 号",
+      "products": [
+        {
+          "capacity": 256,
+          "sku": "MK2M4CH/A",
+          "status": "unavailable",
+          "quote": "暂无供应",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        },
+        {
+          "capacity": 512,
+          "sku": "MK2P4CH/A",
+          "status": "unavailable",
+          "quote": "暂无供应",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        }
+      ]
+    },
+    {
+      "id": "R532",
+      "city": "杭州",
+      "name": "杭州万象城",
+      "address": "杭州市上城区富春路 701 号",
+      "products": [
+        {
+          "capacity": 256,
+          "sku": "MK2M4CH/A",
+          "status": "unavailable",
+          "quote": "暂无供应",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        },
+        {
+          "capacity": 512,
+          "sku": "MK2P4CH/A",
+          "status": "unavailable",
+          "quote": "暂无供应",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        }
+      ]
+    },
+    {
+      "id": "R581",
+      "city": "上海",
+      "name": "五角场",
+      "address": "上海市杨浦区翔殷路 1099 号",
+      "products": [
+        {
+          "capacity": 256,
+          "sku": "MK2M4CH/A",
+          "status": "available",
+          "quote": "今天可取货",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        },
+        {
+          "capacity": 512,
+          "sku": "MK2P4CH/A",
+          "status": "available",
+          "quote": "今天可取货",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        }
+      ]
+    },
+    {
+      "id": "R390",
+      "city": "上海",
+      "name": "香港广场",
+      "address": "上海市黄浦区淮海中路 282 号",
+      "products": [
+        {
+          "capacity": 256,
+          "sku": "MK2M4CH/A",
+          "status": "unavailable",
+          "quote": "暂无供应",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        },
+        {
+          "capacity": 512,
+          "sku": "MK2P4CH/A",
+          "status": "unavailable",
+          "quote": "暂无供应",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        }
+      ]
+    },
+    {
+      "id": "R401",
+      "city": "上海",
+      "name": "上海环贸 iapm",
+      "address": "上海市徐汇区淮海中路 999 号",
+      "products": [
+        {
+          "capacity": 256,
+          "sku": "MK2M4CH/A",
+          "status": "unavailable",
+          "quote": "暂无供应",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        },
+        {
+          "capacity": 512,
+          "sku": "MK2P4CH/A",
+          "status": "unavailable",
+          "quote": "暂无供应",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        }
+      ]
+    },
+    {
+      "id": "R359",
+      "city": "上海",
+      "name": "南京东路",
+      "address": "上海市黄浦区南京东路 300 号",
+      "products": [
+        {
+          "capacity": 256,
+          "sku": "MK2M4CH/A",
+          "status": "unavailable",
+          "quote": "暂无供应",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        },
+        {
+          "capacity": 512,
+          "sku": "MK2P4CH/A",
+          "status": "unavailable",
+          "quote": "暂无供应",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        }
+      ]
+    },
+    {
+      "id": "R389",
+      "city": "上海",
+      "name": "浦东",
+      "address": "上海市浦东新区陆家嘴世纪大道 8 号",
+      "products": [
+        {
+          "capacity": 256,
+          "sku": "MK2M4CH/A",
+          "status": "available",
+          "quote": "今天可取货",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        },
+        {
+          "capacity": 512,
+          "sku": "MK2P4CH/A",
+          "status": "available",
+          "quote": "今天可取货",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        }
+      ]
+    },
+    {
+      "id": "R678",
+      "city": "上海",
+      "name": "静安",
+      "address": "上海市静安区南京西路 1699 号",
+      "products": [
+        {
+          "capacity": 256,
+          "sku": "MK2M4CH/A",
+          "status": "unavailable",
+          "quote": "暂无供应",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        },
+        {
+          "capacity": 512,
+          "sku": "MK2P4CH/A",
+          "status": "unavailable",
+          "quote": "暂无供应",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        }
+      ]
+    },
+    {
+      "id": "R683",
+      "city": "上海",
+      "name": "环球港",
+      "address": "上海市普陀区中山北路 3300 号",
+      "products": [
+        {
+          "capacity": 256,
+          "sku": "MK2M4CH/A",
+          "status": "unavailable",
+          "quote": "暂无供应",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        },
+        {
+          "capacity": 512,
+          "sku": "MK2P4CH/A",
+          "status": "unavailable",
+          "quote": "暂无供应",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        }
+      ]
+    },
+    {
+      "id": "R705",
+      "city": "上海",
+      "name": "七宝",
+      "address": "上海市闵行区漕宝路 3366 号 ",
+      "products": [
+        {
+          "capacity": 256,
+          "sku": "MK2M4CH/A",
+          "status": "unavailable",
+          "quote": "暂无供应",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        },
+        {
+          "capacity": 512,
+          "sku": "MK2P4CH/A",
+          "status": "unavailable",
+          "quote": "暂无供应",
+          "checkedAt": "2026-11-13T00:22:31.672Z"
+        }
+      ]
+    }
+  ]
+}

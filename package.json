@@ -1,0 +1,1 @@
+{"name":"iphone-duo-monitor","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","start":"node scripts/server.mjs","collect":"node scripts/collect.mjs","test":"node --test"},"engines":{"node":">=22"}}
