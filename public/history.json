@@ -1,5 +1,13 @@
 [
   {
+    "at": "2026-11-13T15:17:21.048Z",
+    "city": "上海",
+    "store": "香港广场",
+    "capacity": 256,
+    "from": "unavailable",
+    "to": "available"
+  },
+  {
     "at": "2026-11-13T07:00:02.624Z",
     "city": "上海",
     "store": "浦东",

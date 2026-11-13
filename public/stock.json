@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-13T07:00:02.624Z",
+  "checkedAt": "2026-11-13T15:17:21.048Z",
   "source": "Apple 中国大陆官网 · 门店自提",
   "errors": [],
   "stores": [
@@ -14,14 +14,14 @@
           "sku": "MK2M4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         },
         {
           "capacity": 512,
           "sku": "MK2P4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         }
       ]
     },
@@ -36,14 +36,14 @@
           "sku": "MK2M4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         },
         {
           "capacity": 512,
           "sku": "MK2P4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         }
       ]
     },
@@ -58,14 +58,14 @@
           "sku": "MK2M4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         },
         {
           "capacity": 512,
           "sku": "MK2P4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         }
       ]
     },
@@ -78,16 +78,16 @@
         {
           "capacity": 256,
           "sku": "MK2M4CH/A",
-          "status": "unavailable",
-          "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "status": "available",
+          "quote": "明天可取货",
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         },
         {
           "capacity": 512,
           "sku": "MK2P4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         }
       ]
     },
@@ -102,14 +102,14 @@
           "sku": "MK2M4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         },
         {
           "capacity": 512,
           "sku": "MK2P4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         }
       ]
     },
@@ -124,14 +124,14 @@
           "sku": "MK2M4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         },
         {
           "capacity": 512,
           "sku": "MK2P4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         }
       ]
     },
@@ -146,14 +146,14 @@
           "sku": "MK2M4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         },
         {
           "capacity": 512,
           "sku": "MK2P4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         }
       ]
     },
@@ -168,14 +168,14 @@
           "sku": "MK2M4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         },
         {
           "capacity": 512,
           "sku": "MK2P4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         }
       ]
     },
@@ -190,14 +190,14 @@
           "sku": "MK2M4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         },
         {
           "capacity": 512,
           "sku": "MK2P4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         }
       ]
     },
@@ -212,14 +212,14 @@
           "sku": "MK2M4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         },
         {
           "capacity": 512,
           "sku": "MK2P4CH/A",
           "status": "unavailable",
           "quote": "暂无供应",
-          "checkedAt": "2026-11-13T07:00:02.624Z"
+          "checkedAt": "2026-11-13T15:17:21.048Z"
         }
       ]
     }
