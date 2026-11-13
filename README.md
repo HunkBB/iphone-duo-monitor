@@ -35,3 +35,7 @@ npm run build     # 构建 Cloudflare Worker 部署文件
 `public/index.html` 为完整响应式网页；`stock.mjs` 统一解析官方库存；`worker.mjs` 为实时版请求处理器；`scripts/collect.mjs` 为 GitHub 定时采集器。`npm run build` 将网页与解析器嵌入 `dist/server/index.js`。后台静态快照与实时版按需查询独立运行。
 
 本项目与 Apple 无关联，不收集账号或支付信息。
+
+## 界面设计
+
+本轮界面精修参考 [unslop](https://heydamir.design/unslop)，作者 Damir Sokolovsky（[@heydamir](https://x.com/heydamir)），遵循 CC BY 4.0 署名要求。设计方向为“准确、安静、利落的库存值守台”，保留原有浅色与深绿配色、商品展示及功能顺序，统一文字层级、4px 间距、状态点和键盘焦点。未生成或引入营销图片。
