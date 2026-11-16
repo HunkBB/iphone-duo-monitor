@@ -1,7 +1,10 @@
 import {readFile,mkdir,writeFile,cp} from 'node:fs/promises';
+import {CITIES} from '../store-directory.mjs';
 const html=await readFile('public/index.html','utf8');
-const stock=await readFile('stock.mjs','utf8');
+const directory=await readFile('store-directory.mjs','utf8');
+const stock=(await readFile('stock.mjs','utf8')).replace(/^import .*?;\n/gm,'').replace(/^export \{[^}]*\};?\n/gm,'');
+await writeFile('public/catalog.js','window.DUO_CITIES = '+JSON.stringify(CITIES)+';\n');
 await mkdir('dist/server',{recursive:true});
 await mkdir('dist/.openai',{recursive:true});
 await cp('.openai/hosting.json','dist/.openai/hosting.json');
-await writeFile('dist/server/index.js',stock+`\nconst HTML=${JSON.stringify(html)};\n`+await readFile('worker.mjs','utf8'));
+await writeFile('dist/server/index.js',directory+'\n'+stock+`\nconst HTML=${JSON.stringify(html)};\n`+await readFile('backend.mjs','utf8')+'\n'+await readFile('worker.mjs','utf8'));

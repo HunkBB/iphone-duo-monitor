@@ -1,11 +1,12 @@
 import http from 'node:http';
 import {readFile} from 'node:fs/promises';
-import {collect} from '../stock.mjs';
-let data, pending;
-http.createServer(async(req,res)=>{try{
- if(req.url.split('?')[0]==='/api/stock'){
-  if(!data||Date.now()-Date.parse(data.checkedAt)>60000){pending??=collect().then(x=>data=x).finally(()=>pending=null);await pending;}
-  res.setHeader('Content-Type','application/json');res.end(JSON.stringify(data));
- }else if(req.url==='/'||req.url==='/index.html'){res.setHeader('Content-Type','text/html; charset=utf-8');res.end(await readFile('public/index.html'));}
- else{res.statusCode=404;res.end('Not found');}
-}catch{res.statusCode=500;res.end('Service unavailable');}}).listen(8787,'127.0.0.1',()=>console.log('http://127.0.0.1:8787'));
+import {collect,CITIES} from '../stock.mjs';
+import {createBackend} from '../backend.mjs';
+const handler=createBackend({collectFn:city=>collect(fetch,city),cities:CITIES,html:await readFile('public/index.html','utf8')});
+http.createServer(async(req,res)=>{
+ try{
+  const request=new Request('http://127.0.0.1:8787'+req.url,{method:req.method,headers:req.headers});
+  const result=await handler.fetch(request,{},{});
+  res.writeHead(result.status,Object.fromEntries(result.headers));res.end(Buffer.from(await result.arrayBuffer()));
+ }catch{res.statusCode=500;res.end('Service unavailable');}
+}).listen(8787,'127.0.0.1',()=>console.log('http://127.0.0.1:8787'));
